@@ -1,31 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta and Title -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Frontery Group</title>
+  <!-- Link to External CSS -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Header Section with Logo and Navigation -->
   <header class="hero">
-    <div class="logo">Frontery Group</div>
-    <p class="tagline">We Move First</p>
-  </header>
+  <div class="header-content">
+    <!-- Logo -->
+    <img src="images/Frontery-Logo.png" alt="Frontery Group Logo" class="logo-img" />
 
-  <section class="about">
+    <!-- Hamburger (mobile only) -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav class="nav-menu" id="navMenu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#vision">Vision</a></li>
+        <li><a href="#subsidiaries">Subsidiaries</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Tagline Section -->
+<section class="tagline-banner">
+  <p class="tagline">We Move First</p>
+</section>
+
+
+  <!-- About Section -->
+  <section id="about" class="about">
     <h2>About Us</h2>
     <p>
       Frontery Group Ltd. is a dynamic holding company established to lead from the frontier of innovation across industries. We identify and support high-potential ventures through strategic investment, operational oversight, and long-term growth partnerships.
     </p>
   </section>
 
-  <section class="vision">
+  <!-- Vision and Mission Section -->
+  <section id="vision" class="vision">
     <h2>Vision & Mission</h2>
     <p><strong>Vision:</strong> To lead from the frontier of innovation across industries.</p>
     <p><strong>Mission:</strong> To identify, support, and scale high-impact ventures through strategic investment, operational excellence, and long-term partnerships.</p>
   </section>
 
-  <section class="subsidiaries">
+  <!-- Subsidiaries Section -->
+  <section id="subsidiaries" class="subsidiaries">
     <h2>Our Subsidiaries</h2>
     <ul>
       <li><strong>Sophon Technologies:</strong> Software development, AI, and digital transformation.</li>
@@ -34,7 +68,8 @@
     </ul>
   </section>
 
-  <section class="services">
+  <!-- Services Section -->
+  <section id="services" class="services">
     <h2>What We Do</h2>
     <ul>
       <li>Investment & Equity Participation</li>
@@ -43,13 +78,15 @@
     </ul>
   </section>
 
-  <section class="leadership">
+  <!-- Leadership Section -->
+  <section id="leadership" class="leadership">
     <h2>Leadership</h2>
     <p><strong>Daniel Mulwa</strong><br />Founder & Group Director</p>
     <p>Visionary leader with experience in tech and agribusiness, passionate about building scalable African enterprises.</p>
   </section>
 
-  <section class="contact">
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
     <h2>Contact Us</h2>
     <p>Email: <a href="mailto:fronterygroup@gmail.com">danielmulwa08@gmail.com</a></p>
     <p>Phone: +254 742 315 191</p>
@@ -57,10 +94,15 @@
     <p>Website: Coming Soon</p>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Frontery Group Ltd. All rights reserved.</p>
   </footer>
 
+  <!-- Back to Top Button -->
+  <button id="backToTop" title="Go to top">&#8679;</button>
+
+  <!-- JavaScript File -->
   <script src="script.js"></script>
 </body>
 </html>
