@@ -33,6 +33,7 @@ header.hero {
   max-width: 1000px;
   margin: 0 auto;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .logo-img {
@@ -72,7 +73,10 @@ header.hero {
   flex-direction: column;
   cursor: pointer;
   gap: 4px;
-  margin-left: auto; /* Right-align the hamburger icon */
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1001;
 }
 
 .hamburger span {
@@ -160,7 +164,6 @@ a:hover {
 
   .hamburger {
     display: flex;
-    align-self: flex-end;
   }
 
   .nav-menu {
